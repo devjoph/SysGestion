@@ -21,4 +21,40 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+*.classpath
+*.DS_Store
+*.project
+*.prefs
+
+# Eclipse
+.classpath
+*.trace
+*.prefs
+*.lck
+#.project
+#.settings/
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+*.log
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/.java-version
+
+#Jetty
+/IPLM-ap02-war/jetty.logs
+
+# legacy of contract & referential team
+*.class
+**/LOG_DIR_IS_UNDEFINED
+log.txt
+/.metadata/
